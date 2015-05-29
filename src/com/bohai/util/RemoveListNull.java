@@ -14,6 +14,7 @@ public class RemoveListNull {
 		arrays.add(null);
 		arrays.add(789);
 		arrays.removeAll(Collections.singleton(null));
+		//arrays.removeAll(YHDCollectionUtils.nullCollection());
 		System.out.println(arrays);
 	}
 
